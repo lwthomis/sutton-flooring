@@ -1,0 +1,19 @@
+.footer-wrapper {
+    background: url('../images/banner-image.png');
+    display: grid;
+    align-items: center;
+
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+        color: $cream;
+        margin-left: 20px
+    }
+}
+
+@media (max-width: 48em) {
+    footer {
+
+    }
+}

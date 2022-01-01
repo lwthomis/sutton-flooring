@@ -1,0 +1,16 @@
+
+body {
+    margin: 0px;
+
+    .app-wrapper {
+        display: grid;
+        grid-template-rows: 2fr 8fr 1fr;
+        height: 100vh;
+    }
+    
+}
+
+$cream: rgb(255, 239, 220);
+
+@import "./navbar.scss";
+@import "./footer.scss";
