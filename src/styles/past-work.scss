@@ -1,0 +1,35 @@
+.work-wrapper {
+    display: grid;
+    margin-right: 100px;
+    margin-left: 100px;
+    
+    h1 {
+        text-align: center;
+        color: rgba(82, 57, 41, 0.986);
+        
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .work-img-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 25px;
+        margin-bottom: 25px;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 47em) {
+            grid-template-columns: 1fr;
+        }
+    
+    }
+    @media (max-width: 47em) {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+}

@@ -4,9 +4,9 @@ export default function Footer() {
     return (
         <div className='footer-wrapper'>
             <footer>
-                <div>Licensed &amp; Insured</div>
-                <div>Your Local Flooring Installation Professional</div>
-                <div>Since 2005</div>
+                <div className='footer-info'>Licensed &amp; Insured</div>
+                <div className='footer-info'>Your Local Flooring Installation Professional</div>
+                <div className='footer-info'>Since 2005</div>
             </footer>
         </div>
     )

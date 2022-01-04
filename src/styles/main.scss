@@ -1,7 +1,8 @@
 
 body {
     margin: 0px;
-
+    font-family: 'Roboto', sans-serif;
+    
     .app-wrapper {
         display: grid;
         grid-template-rows: 2fr 8fr 1fr;
@@ -15,6 +16,6 @@ $cream: rgb(255, 239, 220);
 @import "./navbar.scss";
 @import "./footer.scss";
 @import "./homepage.scss";
-
+@import "./past-work.scss";
 
 
